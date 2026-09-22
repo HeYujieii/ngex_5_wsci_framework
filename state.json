@@ -1,0 +1,17 @@
+{
+  "problem": "\nI changed my university password this morning.\nNow my Windows laptop won't connect to campus Wi-Fi,\nbut my phone still works.\n",
+  "device": "Windows laptop",
+  "wi_fi status": "operational",
+  "wi-fi_check": true,
+  "diagnosis": {
+    "issue": "Windows laptop cannot connect to campus Wi-Fi after password change",
+    "device": "Windows laptop",
+    "likely_cause": "Cached Wi-Fi credentials using the old password, or authentication requiring the new password which may need re-verification through the campus network portal",
+    "steps": [
+      "Forget the Wi-Fi network in Windows Settings > Network & Internet > Wi-Fi > Manage known networks",
+      "Reconnect to campus Wi-Fi and enter the new password when prompted",
+      "Check if a captive portal login page appears and complete the authentication process"
+    ],
+    "priority": "MEDIUM"
+  }
+}
